@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+#income-section, #expense-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px; /* Increase this for more space between input and button */
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+  width: 70%; /* Set a width to control input sizes */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+  height: 40px;
+  margin-left: 10px; /* Add left margin to buttons */
+}
+
+#add-income {
+  background-color: #4CAF50;
+}
+
+#add-expense {
+  background-color: #f44336;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#summary-section {
+  margin-top: 50px;
+  width: 50%;
+}
+
+#summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#summary-table th, #summary-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+#summary-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#summary-table tr:hover {
+  background-color: #ddd;
+}

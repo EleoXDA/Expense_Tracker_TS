@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="income-section">
+      <div class="input-group">
+          <input type="number" id="income" placeholder="Enter your income">
+          <button id="add-income">Set Income</button>
+      </div>
+    </div>
+    <div id="expense-section">
+        <div class="input-group">
+            <input type="text" id="expense-category" placeholder="Expense category">
+        </div>
+        <div class="input-group">
+            <input type="number" id="expense-amount" placeholder="Expense amount">
+            <button id="add-expense">Add Expense</button>
+        </div>
+    </div>
+    <div id="summary-section">
+        <table id="summary-table">
+            <!-- Income and Expenses will be listed here -->
+        </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
