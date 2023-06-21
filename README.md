@@ -1,4 +1,4 @@
-# Budget Tracker
+# Expense Tracker
 
 ![image](https://github.com/EleoXDA/Expense_Tracker_JS/assets/27622683/af2a1f4a-5860-4b83-9baa-8b314c7025e6)
 
