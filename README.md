@@ -35,3 +35,6 @@ Remember, these instructions assume you are using GitHub and have git installed 
 2. Open the `index.html` file in your preferred web browser.
 
 Please feel free to contribute to the project or suggest any improvements
+
+## License
+This project is licensed under the MIT License. You can find the full text of the license in the [LICENSE.md](LICENSE.md) file.
